@@ -6,6 +6,21 @@ P-QoL, or in details, **Performance Quality-Of-Life** (yeah it's a weird name), 
 This modpack were made just for my personal use only, it might break some functions in Minecraft, I won't guarantee this mod **100% stable**, so any problems you have while running the modpack, please make [a new issue](https://github.com/Scarlaid/P-QoL/issues) and I try to response as soon as possible :D
 ### Suggested by [this dude](https://discord.com/users/437854007181049866) to make a GitHub Repo lol
 ![image](https://user-images.githubusercontent.com/90851437/153533331-5ae0d7c2-481a-427d-8759-23b22a5b24b0.png)
+# How to install this modpack?
+Simple enough, here are some steps to install my modpack:
+- Install Minecraft first, if you dont't have Minecraft installed then why are you here?
+- Download [Fabric Mod Loader](https://fabricmc.net) then install `Fabric v0.13.1` using [the universal jar](https://fabricmc.net/use/installer/) 
+- Open your Minecraft launcher to check if there is Fabric Mod Loader installed
+- Type `%appdata` in your File Explorer/search `%apppdata`/Windows + R then type `%appdata%` then Enter
+- Find your `.minecraft` folder, that will be where you Minecraft versions/data stored
+- Download the ZIP file from [here](https://github.com/Scarlaid/P-QoL/releases/tag/v1.0.0), extract it and you will recieve a folder with the name **mods**
+- Run the game with Fabric Mod Loader you just installed
+- Gratz you made it, now enjoy the ~~lag~~ smooth-like-butter gameplay with QoL vibes
+### Optional steps
+- Download [Zulu JDK 17](https://www.azul.com/downloads/?package=jdk)
+- Go to your Minecraft version/installation/setting, find `Java Executable` then follow the path to find `javaw.exe` from Zulu JDK (example for mine is always in `C:\Program Files\Zulu\zulu-17\bin\javaw.exe`)
+- Fine `JVM Arguments`, paste [this](https://pastebin.com/4piKwgCy) in
+- Run the game with the mods, JVM arg and the JavaExe you just installed
 # Included mods
 This modpack was inspired from this [list of Optifine alternatives](lambdaurora.dev/optifine_alternatives/),  but it's doesn't mean it will stop there.
 Here you can find the mods with any little detail about each of them, keep in mind that I only make this modpack for **only 1.18.1** so if you came for modpacks that supports lower than 1.18, this is not the place.
