@@ -8,12 +8,21 @@ This modpack were made just for my personal use only, it might break some functi
 ![image](https://user-images.githubusercontent.com/90851437/153533331-5ae0d7c2-481a-427d-8759-23b22a5b24b0.png)
 # How to install this modpack?
 Simple enough, here are some steps to install my modpack:
+## Install Minecraft and Fabric
 - Install Minecraft first, if you dont't have Minecraft installed then why are you here?
 - Download [Fabric Mod Loader](https://fabricmc.net) then install `Fabric v0.13.1` using [the universal jar](https://fabricmc.net/use/installer/) 
 - Open your Minecraft launcher to check if there is Fabric Mod Loader installed
 - Type `%appdata` in your File Explorer/search `%apppdata`/Windows + R then type `%appdata%` then Enter
 - Find your `.minecraft` folder, that will be where you Minecraft versions/data stored
 - Download the ZIP file from [here](https://github.com/Scarlaid/P-QoL/releases/tag/v1.0.0), extract it and you will recieve a folder with the name **mods**
+## Find your installation folder
+###### Windows
+- Type `%appdata` in your File Explorer/search `%appdata`/Windows + R then type `%appdata%` then Enter
+- Find the `.minecraft` folder, that will be where you Minecraft versions/data stored
+###### Linux
+- Find the hidden `.minecraft` folder in your home folder, that will be where you Minecraft versions/data stored
+## Final steps
+- Download the ZIP file from [here](https://github.com/Scarlaid/P-QoL/releases), extract it and you will recieve a folder with the name **mods**
 - Run the game with Fabric Mod Loader you just installed
 - Gratz you made it, now enjoy the ~~lag~~ smooth-like-butter gameplay with QoL vibes
 ### Optional steps
