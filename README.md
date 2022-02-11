@@ -22,7 +22,7 @@ Simple enough, here are some steps to install my modpack:
 - Fine `JVM Arguments`, paste [this](https://pastebin.com/4piKwgCy) in
 - Run the game with the mods, JVM arg and the JavaExe you just installed
 # Included mods
-This modpack was inspired from this [list of Optifine alternatives](lambdaurora.dev/optifine_alternatives/),  but it's doesn't mean it will stop there.
+This modpack was inspired from this [list of Optifine alternatives](https://lambdaurora.dev/optifine_alternatives/),  but it's doesn't mean it will stop there.
 Here you can find the mods with any little detail about each of them, keep in mind that I only make this modpack for **only 1.18.1** so if you came for modpacks that supports lower than 1.18, this is not the place.
 ### Performance
 | Name | Author | Description | Note |
