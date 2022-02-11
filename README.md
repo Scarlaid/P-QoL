@@ -24,7 +24,7 @@ Simple enough, here are some steps to install my modpack:
 # Included mods
 This modpack was inspired from this [list of Optifine alternatives](lambdaurora.dev/optifine_alternatives/),  but it's doesn't mean it will stop there.
 Here you can find the mods with any little detail about each of them, keep in mind that I only make this modpack for **only 1.18.1** so if you came for modpacks that supports lower than 1.18, this is not the place.
-### Perfromance
+### Performance
 | Name | Author | Description | Note |
 | ------------- | ------------- | ------------ | ------------| 
 | [Sodium](https://github.com/CaffeineMC/sodium-fabric/releases) | [CaffeinMC](https://github.com/CaffeineMC) | Optimization mod for the Minecraft client that improves frame rates, reduces micro-stutter, and fixes graphical issues in Minecraft, as well as adds some graphics options | Doesn't have **all** the settings like Optifine |
