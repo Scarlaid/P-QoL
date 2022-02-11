@@ -8,20 +8,19 @@ This modpack were made just for my personal use only, it might break some functi
 ![image](https://user-images.githubusercontent.com/90851437/153533331-5ae0d7c2-481a-427d-8759-23b22a5b24b0.png)
 # How to install this modpack?
 Simple enough, here are some steps to install my modpack:
-## Install Minecraft and Fabric
 - Install Minecraft first, if you dont't have Minecraft installed then why are you here?
 - Download [Fabric Mod Loader](https://fabricmc.net) then install `Fabric v0.13.1` using [the universal jar](https://fabricmc.net/use/installer/) 
 - Open your Minecraft launcher to check if there is Fabric Mod Loader installed
-## Find your installation folder
-###### Windows
-- Type `%appdata` in your File Explorer/search `%appdata`/Windows + R then type `%appdata%` then Enter
-- Find the `.minecraft` folder, that will be where you Minecraft versions/data stored
-###### Linux
-- Find the hidden `.minecraft` folder in your home folder, that will be where you Minecraft versions/data stored
-## Final steps
-- Download the ZIP file from [here](https://github.com/Scarlaid/P-QoL/releases), extract it and you will recieve a folder with the name **mods**
+- Type `%appdata` in your File Explorer/search `%apppdata`/Windows + R then type `%appdata%` then Enter
+- Find your `.minecraft` folder, that will be where you Minecraft versions/data stored
+- Download the ZIP file from [here](https://github.com/Scarlaid/P-QoL/releases/tag/v1.0.0), extract it and you will recieve a folder with the name **mods**
 - Run the game with Fabric Mod Loader you just installed
 - Gratz you made it, now enjoy the ~~lag~~ smooth-like-butter gameplay with QoL vibes
+### Optional steps
+- Download [Zulu JDK 17](https://www.azul.com/downloads/?package=jdk)
+- Go to your Minecraft version/installation/setting, find `Java Executable` then follow the path to find `javaw.exe` from Zulu JDK (example for mine is always in `C:\Program Files\Zulu\zulu-17\bin\javaw.exe`)
+- Fine `JVM Arguments`, paste [this](https://pastebin.com/4piKwgCy) in
+- Run the game with the mods, JVM arg and the JavaExe you just installed
 # Included mods
 This modpack was inspired from this [list of Optifine alternatives](https://lambdaurora.dev/optifine_alternatives/),  but it's doesn't mean it will stop there.
 Here you can find the mods with any little detail about each of them, keep in mind that I only make this modpack for **only 1.18.1** so if you came for modpacks that supports lower than 1.18, this is not the place.
@@ -97,4 +96,10 @@ ____________
 | [MiniHUD](https://www.curseforge.com/minecraft/mc-mods/minihud) | [maruohon](https://github.com/maruohon) | Configurable *Mini-F3* with lots of cool features | Basically you have this, and you can preview a what-inside-a-shulker or a map (hold Shift while hovering a map) with this mod, cool right?
 | [Hide Armor](https://www.curseforge.com/minecraft/mc-mods/hide-armor) | [Furgl](https://github.com/Furgl) | Hide your armor and/or other player's armor (in perspective) | Good for taking a group screenshot without have to take off the armor. [Funnier if you turn off the Chestplate while wearing an Elytra](https://cdn.discordapp.com/attachments/810700087054434358/941643112063860787/5nJWYjmlR.gif)
 | [Autofish](https://www.curseforge.com/minecraft/mc-mods/autofish) | [MrTroot](https://github.com/MrTroot) | Let the game do the fishing for you while ~~jerking~~ chilling | Even the fishing is nerfed, you still can be really OP if you AFK Fishing for like 1-3 hours, unbalanced mod xD
-*Updating more soon, im just busy and lazy rn sorry*
+| [Puzzle](https://github.com/PuzzleMC/Puzzle) | [PuzzleMC](https://github.com/PuzzleMC) | Adds some minor Optifine features, which might helpful for QoL vibes | I'm kiddding lol, turn off resource pack splash screen, it just broke the vanilla one instantly, this mod is in the modpack because of [it being helpful as a shortcuts for other mods settings](https://cdn.discordapp.com/attachments/810700087054434358/941695663895379998/unknown.png)
+| [BetterF3](https://www.curseforge.com/minecraft/mc-mods/betterf3/) | [cominixo](https://github.com/cominixo) | Making F3 more fancy, detailed and suitable with your knowledge of reading | Configuring this will be a pain, but when you done, you will be pleased to yourself for installing this mod
+| [AdvancementInfo](https://www.curseforge.com/minecraft/mc-mods/advancementinfo) | [gbl](https://github.com/gbl) | Viewing the advancement GUI bigger while helping you to see which advancement is missing | Good for hidden advancements and a full view of the GUI
+| [CraftPresence](https://www.curseforge.com/minecraft/mc-mods/craftpresence) | [CDAGaming](https://gitlab.com/CDAGaming) | Giving your game a fancy Discord Rich Presense which is customizable | [nice status bro](https://cdn.discordapp.com/attachments/810700087054434358/941698617037701120/unknown.png)
+| [Don't Drip It!](https://github.com/ModsByLeo/DontDropIt) | [ModsByLeo](https://github.com/ModsByLeo) | Adds a delay for pressing the Drop Item hotkey with a "Favourtite Item" just like Terraria (if you know the game) | Recommeneded, best when you change to your slot 1 instead you pressed Q that you droppped the item 
+| [Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu) | [TerraformersMC](https://github.com/TerraformersMC) | Allow you to view the mods you have installed just like Forge | Why Fabric standalone don't have this? Maybe because of it being a silent mod loader?
+| [Borderless Gaming](https://github.com/comp500/BorderlessMining) | [comp500](https://github.com/comp500) | Allows Minecraft to run in **Borderless Fullscreen** | What does this do? If you, for example, owning a dual-monitor setup, you might notice Minecraft tabbed out whenever you change to other windows, this prevent the game from tabbing out, which is less more annoying to tab+alt it again by just click on the Minecraft window
