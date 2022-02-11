@@ -12,9 +12,6 @@ Simple enough, here are some steps to install my modpack:
 - Install Minecraft first, if you dont't have Minecraft installed then why are you here?
 - Download [Fabric Mod Loader](https://fabricmc.net) then install `Fabric v0.13.1` using [the universal jar](https://fabricmc.net/use/installer/) 
 - Open your Minecraft launcher to check if there is Fabric Mod Loader installed
-- Type `%appdata` in your File Explorer/search `%apppdata`/Windows + R then type `%appdata%` then Enter
-- Find your `.minecraft` folder, that will be where you Minecraft versions/data stored
-- Download the ZIP file from [here](https://github.com/Scarlaid/P-QoL/releases/tag/v1.0.0), extract it and you will recieve a folder with the name **mods**
 ## Find your installation folder
 ###### Windows
 - Type `%appdata` in your File Explorer/search `%appdata`/Windows + R then type `%appdata%` then Enter
@@ -112,3 +109,4 @@ ____________
 | [Don't Drip It!](https://github.com/ModsByLeo/DontDropIt) | [ModsByLeo](https://github.com/ModsByLeo) | Adds a delay for pressing the Drop Item hotkey with a "Favourtite Item" just like Terraria (if you know the game) | Recommeneded, best when you change to your slot 1 instead you pressed Q that you droppped the item 
 | [Mod Menu](https://www.curseforge.com/minecraft/mc-mods/modmenu) | [TerraformersMC](https://github.com/TerraformersMC) | Allow you to view the mods you have installed just like Forge | Why Fabric standalone don't have this? Maybe because of it being a silent mod loader?
 | [Borderless Gaming](https://github.com/comp500/BorderlessMining) | [comp500](https://github.com/comp500) | Allows Minecraft to run in **Borderless Fullscreen** | What does this do? If you, for example, owning a dual-monitor setup, you might notice Minecraft tabbed out whenever you change to other windows, this prevent the game from tabbing out, which is less more annoying to tab+alt it again by just click on the Minecraft window
+____________
