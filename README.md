@@ -22,15 +22,26 @@ Here you can find the mods with any little detail about each of them, keep in mi
 | [Smooth Boot](https://github.com/UltimateBoomer/mc-smoothboot) | [UltimateBoomer](https://github.com/UltimateBoomer) | Improve and tweak Minecraft CPU scheduling | The config file is in `config.json` so you might need [this](https://code.visualstudio.com)
 | [Krypton](https://github.com/astei/krypton) | [astei](https://github.com/astei) | Fabric mod that attempts to optimize the Minecraft networking stack | No little performance notice in multiplayer but you might see them more in Singleplayer while opening a LAN server
 | [DashLoader](https://www.curseforge.com/minecraft/mc-mods/dashloader) | [QuantumFusion](https://github.com/QuantumFusionMC) | This mod improves Minecraft client asset loading times about 6x by caching all of the game's content | **100% Multi-threaded**, kinda unstable for rendering texture that you might encounter [this](https://github.com/QuantumFusionMC/DashLoader-Definitions/issues/1)
-### Smooth-*ish*/Patches (?)
+__________
+### Smooth-*ish* (?)
 | Name | Author | Description | Note |
 | --- | ---- | ------------ | ----| 
 | [NoFade](https://github.com/UltimateBoomer/mc-no-fade) | [UltimateBoomer](https://github.com/UltimateBoomer) | Removes all the *annoying* fade-out animations in Minecraft | :poggers:
 | [Language Reload](https://github.com/Jerozgen/LanguageReload) | [Jerozgen](https://github.com/Jerozgen) | Fabric mod that reloads languages without resource pack reloading using F3 + J | Might break with [DashLoader](https://www.curseforge.com/minecraft/mc-mods/dashloader), at least for me, once
-| [FastOpenLinksAndFolders](https://github.com/altrisi/FastOpenLinksAndFolders) | [astei](https://github.com/astei) | A lightweight mod to make the game not freeze when opening a chat link, a screenshot or either the resourcepacks or datapacks folder | |
+| [FastOpenL&F](https://github.com/altrisi/FastOpenLinksAndFolders) | [astei](https://github.com/astei) | A lightweight mod to make the game not freeze when opening a chat link, a screenshot or either the resourcepacks or datapacks folder | |
 | [NoChatLag](https://github.com/NoahvdAa/NoChatLag) | [NoahvdAa](https://github.com/NoahvdAa) | Rendering the ingame chat in another thread to improve the gameplay by not rendering the chat on the same thread Minecraft running | I'm not sure [v1.1.0](https://github.com/NoahvdAa/NoChatLag/releases/tag/1.1.0) changed anything, but for now the modpack still sticking with [v1.0.0](https://github.com/NoahvdAa/NoChatLag/releases/tag/1.0.0) because it's stable enough
 | [Clumps](https://www.curseforge.com/minecraft/mc-mods/clumps) | [jaredlll08](https://github.com/jaredlll08) |  Groups XP orbs together into a single entity to reduce lag when there are many in a small area, also giving the player collecting all the orbs immediately | |
 | [FastChest](https://www.curseforge.com/minecraft/mc-mods/fastchest) | [FakeDomi](https://github.com/FakeDomi) | Removing dynamic models from chests and making them render as static chunk geometry, make chest rendering less **intense** in a wide area with a lot of filled chests | This mod will make the chest no more have the opening/closing animation, which might annoy you. [For troubleshooting the chests (any chest) textures being invisisble](https://github.com/FakeDomi/FastChest/issues/10)
-| [EnhancedBlocksEntities](https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities) | [FoundationGames](https://github.com/FoundationGames) | A Fabric mod which aims to increase the performance of block entity rendering, as well as offer customizability via resource packs | Incompatible with DashLoader at the moment with double chest texture being [*cursed*](https://github.com/FoundationGames/EnhancedBlockEntities/issues/71)
-
+| [Enhanced Blocks Entities](https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities) | [FoundationGames](https://github.com/FoundationGames) | A Fabric mod which aims to increase the performance of block entity rendering, as well as offer customizability via resource packs | Incompatible with DashLoader at the moment with double chest texture being [*cursed*](https://github.com/FoundationGames/EnhancedBlockEntities/issues/71)
+| [Better Beds](https://www.curseforge.com/minecraft/mc-mods/better-beds) | [TeamMidnightDust](https://github.com/TeamMidnightDust) | Removes the BlockEntityRenderer from the bed and replaces it with the default minecraft model renderer | You might facing very little **half-of-a-bed** issue when placing down a bed
+______
+### Fixes/Patches
+| Name | Author | Description | Note |
+| --- | ---- | ------------ | ----| 
+| [TieFix](https://github.com/j-tai/TieFix) | [j-tai](https://github.com/j-tai) | A Fabric mod that fixes some annoying bugs in the Minecraft client | Toggable if you feel like those **patches** was intentional for the game to function
+_______
+### Optifine Alternatives
+| Name | Author | Description | Note |
+| --- | ---- | ------------ | ----| 
+| 
 *Updating more soon, im just lazy right now lol*
