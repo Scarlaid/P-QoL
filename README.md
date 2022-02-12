@@ -1,9 +1,10 @@
 # P-QoL
-P-QoL, or in details, **Performance Quality-Of-Life** (yeah it's a weird name), is a simple modpack for people who have the curiousity of pushing the boundary of **Minecraft optimization** but also keeping the Quality-Of-Life vibes throughout the gameplay, as well as a starting point for any new Fabric users who are willing to see what equivalents Fabric has to offer to them (or somehow change their view about using Optifine and shift to Sodium)
+P-QoL, or in details, **Performance Quality-Of-Life** (yeah it's a weird name), is a simple modpack for people who have the curiousity of pushing the boundary of **Minecraft optimization** but also keeping the Quality-Of-Life vibes throughout the gameplay, as well as a starting point for any new Fabric users who are willing to see what equivalents Fabric has to offer to them.  
+*Or if you want to convince a kid who still thinks that Optifine + Forge = FPS boost*
 
-> Simple definition for this modpack is making your gameplay more ideal, have the fancy view while still having the performance you want.
+> TL;DR: Making your gameplay more ideal, have the fancy view while still having the performance you want.
 # Before installing the modpack
-This modpack were made just for my personal use only, it might break some functions in Minecraft, I won't guarantee this mod **100% stable**, so any problems you have while running the modpack, please make [a new issue](https://github.com/Scarlaid/P-QoL/issues) and I try to response as soon as possible :D
+This modpack were made just for my personal use only, it might break some of the functions in Minecraft, I can't guarantee this mod is **100% stable**, so if you have any problems while using this modpack, please make [a new issue](https://github.com/Scarlaid/P-QoL/issues) and I try to response as soon as possible :D
 ### Suggested by [this dude](https://discord.com/users/437854007181049866) to make a GitHub Repo lol
 ![image](https://user-images.githubusercontent.com/90851437/153533331-5ae0d7c2-481a-427d-8759-23b22a5b24b0.png)
 # How to install this modpack?
