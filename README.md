@@ -2,7 +2,7 @@
 P-QoL, which stands for **Performance Quality-Of-Life**, is a simple Minecraft modpack for people who want to push **Minecraft optimization** onto its limit but also keep the Quality-Of-Life vibes throughout the gameplay, as well as a starting point for new Fabric users who are willing to see what equivalents Fabric has to offer to them.
 *Or if you want some convincing representative cases for the topic: 'Forge + OptiFine is not always good like it sounds' 😏*
 
-> TL;DR: Making your gameplay more enjoyable, have the fancy view while still having the performance you want.
+> TL;DR: Making your gameplay fancier, more enjoyable while still having the performance you expected.
 # Before installing and applying the modpack
 This modpack was made just for my personal use only, it might break some vanilla functions in Minecraft. With that being said, I can't guarantee that this modpack is **100% stable and bug-free**. If you have any problems while using this modpack, please file me [a new issue](https://github.com/Scarlaid/P-QoL/issues) and I will try to response as soon as possible :D
 ### This GitHub repository was propounded by [this dude](https://github.com/TypicalShavonne/)
