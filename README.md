@@ -1,36 +1,39 @@
 # P-QoL
-P-QoL, or in details, **Performance Quality-Of-Life** (yeah it's a weird name), is a simple modpack for people who have the curiousity of pushing the boundary of **Minecraft optimization** but also keeping the Quality-Of-Life vibes throughout the gameplay, as well as a starting point for any new Fabric users who are willing to see what equivalents Fabric has to offer to them.  
-*Or if you want to convince a kid who still thinks that Optifine + Forge = FPS boost*
+P-QoL, which stands for **Performance Quality-Of-Life**, is a simple Minecraft modpack for people who want to push **Minecraft optimization** onto its limit but also keep the Quality-Of-Life vibes throughout the gameplay, as well as a starting point for new Fabric users who are willing to see what equivalents Fabric has to offer to them.
 
-> TL;DR: Making your gameplay more ideal, have the fancy view while still having the performance you want.
-# Before installing the modpack
-This modpack were made just for my personal use only, it might break some of the functions in Minecraft, I can't guarantee this mod is **100% stable**, so if you have any problems while using this modpack, please make [a new issue](https://github.com/Scarlaid/P-QoL/issues) and I try to response as soon as possible :D
-### Suggested by [this dude](https://discord.com/users/437854007181049866) to make a GitHub Repo lol
+*Or if you want some convincing representative cases for the topic: 'Forge + OptiFine is not always good like it sounds' 😏*
+
+> TL;DR: Making your gameplay fancier, more enjoyable while still having the performance you expected.
+# Before installing and applying the modpack
+This modpack was made just for my personal use only, it might break some vanilla functions in Minecraft. With that being said, I can't guarantee that this modpack is **100% stable and bug-free**. If you have any problems while using this modpack, please file me [a new issue](https://github.com/Scarlaid/P-QoL/issues) and I will try to response as soon as possible :D
+### This GitHub repository was propounded by [this dude](https://github.com/TypicalShavonne/)
 ![image](https://user-images.githubusercontent.com/90851437/153533331-5ae0d7c2-481a-427d-8759-23b22a5b24b0.png)
-# How to install this modpack?
+# Installation Guide
 Simple enough, here are some steps to install my modpack:
 ## Install Minecraft and Fabric
-- Install Minecraft first, if you dont't have Minecraft installed then why are you here?
-- Download [Fabric Mod Loader](https://fabricmc.net) then install `Fabric v0.13.1` using [the universal jar](https://fabricmc.net/use/installer/) 
-- Open your Minecraft launcher to check if there is Fabric Mod Loader installed
-## Find your installation folder
+- Install Minecraft first (if you dont't have Minecraft installed then why are you here? 🤨)
+- Download [Fabric Mod Loader](https://fabricmc.net) then install [Fabric v0.13.1](https://fabricmc.net/use/installer/)
+- Open your Minecraft launcher and check if the Fabric Loader profile is installed
+## Find your installation folder (Mojang's Minecraft Launcher)
+It may differ if you're using a different client implementation.
 ###### Windows
 - Type `%appdata` in your File Explorer/search `%appdata`/Windows + R then type `%appdata%` then Enter
 - Find the `.minecraft` folder, that will be where you Minecraft versions/data stored
 ###### Linux
-- Find the hidden `.minecraft` folder in your home folder, that will be where you Minecraft versions/data stored
+- Go to the path `~/.minecraft` (the folder `.minecraft` in your home directory)
 ## Final steps
-- Download the ZIP file from [here](https://github.com/Scarlaid/P-QoL/releases), extract it and you will recieve a folder with the name **mods**
+- Download the ZIP file from [here](https://github.com/Scarlaid/P-QoL/releases)
+- Extract the file using your desired archiver, you will find yourself a `mods` folder.
+- Move that `mods` folder into your Minecraft installation folder (`.minecraft`)
 - Run the game with Fabric Mod Loader you just installed
-- Gratz you made it, now enjoy the ~~lag~~ smooth-like-butter gameplay with QoL vibes
-### Optional steps
-- Download [Zulu JDK 17](https://www.azul.com/downloads/?package=jdk)
-- Go to your Minecraft version/installation/setting, find `Java Executable` then follow the path to find `javaw.exe` from Zulu JDK (example for mine is always in `C:\Program Files\Zulu\zulu-17\bin\javaw.exe`)
-- Fine `JVM Arguments`, paste [this](https://pastebin.com/4piKwgCy) in
-- Run the game with the mods, JVM arg and the JavaExe you just installed
+- Gratz you made it, now enjoy the "no-lag", smooth-like-butter gameplay with QoL vibes 😎
+### Optional suggestions
+You can add some finishing touches onto your Minecraft installation. Keep in mind that these steps are all **optional**, and they may break functionalities in some occasions.
+- Run Minecraft with [Azul Zulu](https://www.azul.com/downloads)
+- Pair your Minecraft installation with these [**JVM Arguments**](https://pastebin.com/4piKwgCy)
 # Included mods
-This modpack was inspired from this [list of Optifine alternatives](https://lambdaurora.dev/optifine_alternatives/),  but it's doesn't mean it will stop there.
-Here you can find the mods with any little detail about each of them, keep in mind that I only make this modpack for **only 1.18.1** so if you came for modpacks that supports lower than 1.18, this is not the place.
+This modpack was inspired from this [list of Optifine alternatives](https://lambdaurora.dev/optifine_alternatives/), but it's doesn't mean it will stop there.
+Here you can find the mods with any little detail about each of them, keep in mind that I only make this modpack for **only 1.18.1** so if you came here for modpacks that support versions lower than 1.18, unfortunately this is not the right place.
 ### Performance
 | Name | Author | Description | Note |
 | ------------- | ------------- | ------------ | ------------| 
