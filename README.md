@@ -23,7 +23,7 @@ It may differ if you're using a different client implementation.
 - Go to the path `~/.minecraft` (the hidden `.minecraft` folder in your home directory)
 ###### macOS
 - Open Finder and press ⇧ Shift + ⌘ Command + G or open the Spotlight popup through the magnifying glass icon on the right of the Menu Bar.
-- Type ~/Library/Application Support/minecraft and hit ↵ Enter .
+- Type `~/Library/Application Support/minecraft` and hit ↵ Enter .
 ### Final steps
 - Download the ZIP file from [here](https://github.com/Scarlaid/P-QoL/releases)
 - Extract the file using your desired archiver, you will find yourself a `mods` folder
