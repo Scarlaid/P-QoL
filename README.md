@@ -8,7 +8,7 @@ P-QoL, which stands for **Performance Quality-Of-Life**, is a simple Minecraft m
 This modpack was made just for my personal use only, it might break some vanilla functions in Minecraft. With that being said, I can't guarantee that this modpack is **100% stable and bug-free**. If you have any problems while using this modpack, please file me [a new issue](https://github.com/Scarlaid/P-QoL/issues) and I will try to response as soon as possible. :D
 ### This GitHub repository was propounded by [typical](https://github.com/TypicalShavonne/).
 ![image](https://user-images.githubusercontent.com/90851437/153533331-5ae0d7c2-481a-427d-8759-23b22a5b24b0.png)
-# Installation Guide
+# Installation guide
 Simple enough, here are some steps to install my modpack:
 ### Install Minecraft and Fabric
 - Install Minecraft first (if you dont't have Minecraft installed then why are you here? 🤨)
