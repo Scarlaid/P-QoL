@@ -36,7 +36,7 @@ You can add some finishing touches onto your Minecraft installation. Keep in min
 - Pair your Minecraft installation with these [**JVM Arguments**](https://pastebin.com/4piKwgCy)
 # Included mods
 This modpack was inspired from this [list of Optifine alternatives](https://lambdaurora.dev/optifine_alternatives/), but it's doesn't mean it will stop there.
-Here you can find the mods with any little detail about each of them, keep in mind that I only make this modpack for **only 1.18.1** so if you came here for modpacks that support 1.18 or lower, unfortunately this is not the right place.
+Here you can find the mods with any little detail about each of them, keep in mind that I only make this modpack for **only 1.18.x** so if you came here for modpacks that support versions lower than 1.18, unfortunately this is not the right place.
 ### Performance
 | Name | Author | Description | Note |
 | ------------- | ------------- | ------------ | ------------| 
