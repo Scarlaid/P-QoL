@@ -1,39 +1,39 @@
 # P-QoL
 P-QoL, which stands for **Performance Quality-Of-Life**, is a simple Minecraft modpack for people who want to push **Minecraft optimization** onto its limit but also keep the Quality-Of-Life vibes throughout the gameplay, as well as a starting point for new Fabric users who are willing to see what equivalents Fabric has to offer to them.
 
-*Or if you want some convincing representative cases for the topic: 'Forge + OptiFine is not always good like it sounds' 😏*
+*Or if you want some convincing representative cases for the topic: 'Forge + OptiFine is not always good like it sounds.' 😏*
 
 > TL;DR: Making your gameplay fancier, more enjoyable while still having the performance you expected.
 # Before installing and applying the modpack
-This modpack was made just for my personal use only, it might break some vanilla functions in Minecraft. With that being said, I can't guarantee that this modpack is **100% stable and bug-free**. If you have any problems while using this modpack, please file me [a new issue](https://github.com/Scarlaid/P-QoL/issues) and I will try to response as soon as possible :D
-### This GitHub repository was propounded by [this dude](https://github.com/TypicalShavonne/)
+This modpack was made just for my personal use only, it might break some vanilla functions in Minecraft. With that being said, I can't guarantee that this modpack is **100% stable and bug-free**. If you have any problems while using this modpack, please file me [a new issue](https://github.com/Scarlaid/P-QoL/issues) and I will try to response as soon as possible. :D
+### This GitHub repository was propounded by [typical](https://github.com/TypicalShavonne/).
 ![image](https://user-images.githubusercontent.com/90851437/153533331-5ae0d7c2-481a-427d-8759-23b22a5b24b0.png)
 # Installation Guide
 Simple enough, here are some steps to install my modpack:
-## Install Minecraft and Fabric
+### Install Minecraft and Fabric
 - Install Minecraft first (if you dont't have Minecraft installed then why are you here? 🤨)
 - Download [Fabric Mod Loader](https://fabricmc.net) then install [Fabric v0.13.1](https://fabricmc.net/use/installer/)
 - Open your Minecraft launcher and check if the Fabric Loader profile is installed
-## Find your installation folder (Mojang's Minecraft Launcher)
+### Find your installation folder (Mojang's Minecraft Launcher)
 It may differ if you're using a different client implementation.
 ###### Windows
 - Type `%appdata` in your File Explorer/search `%appdata`/Windows + R then type `%appdata%` then Enter
 - Find the `.minecraft` folder, that will be where you Minecraft versions/data stored
 ###### Linux
-- Go to the path `~/.minecraft` (the folder `.minecraft` in your home directory)
-## Final steps
+- Go to the path `~/.minecraft` (the hidden `.minecraft` folder in your home directory)
+### Final steps
 - Download the ZIP file from [here](https://github.com/Scarlaid/P-QoL/releases)
-- Extract the file using your desired archiver, you will find yourself a `mods` folder.
+- Extract the file using your desired archiver, you will find yourself a `mods` folder
 - Move that `mods` folder into your Minecraft installation folder (`.minecraft`)
 - Run the game with Fabric Mod Loader you just installed
-- Gratz you made it, now enjoy the "no-lag", smooth-like-butter gameplay with QoL vibes 😎
+- Congrats, you made it! Now enjoy the "no-lag", smooth-like-butter gameplay with QoL vibes. 😎
 ### Optional suggestions
 You can add some finishing touches onto your Minecraft installation. Keep in mind that these steps are all **optional**, and they may break functionalities in some occasions.
 - Run Minecraft with [Azul Zulu](https://www.azul.com/downloads)
 - Pair your Minecraft installation with these [**JVM Arguments**](https://pastebin.com/4piKwgCy)
 # Included mods
 This modpack was inspired from this [list of Optifine alternatives](https://lambdaurora.dev/optifine_alternatives/), but it's doesn't mean it will stop there.
-Here you can find the mods with any little detail about each of them, keep in mind that I only make this modpack for **only 1.18.1** so if you came here for modpacks that support versions lower than 1.18, unfortunately this is not the right place.
+Here you can find the mods with any little detail about each of them, keep in mind that I only make this modpack for **only 1.18.1** so if you came here for modpacks that support 1.18 or lower, unfortunately this is not the right place.
 ### Performance
 | Name | Author | Description | Note |
 | ------------- | ------------- | ------------ | ------------| 
