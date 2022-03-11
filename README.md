@@ -12,7 +12,7 @@ This modpack was made just for my personal use only, it might break some vanilla
 Simple enough, here are some steps to install my modpack:
 ### Install Minecraft and Fabric
 - Install Minecraft first (if you dont't have Minecraft installed then why are you here? 🤨)
-- Download [Fabric Mod Loader](https://fabricmc.net) then install [Fabric v0.13.1](https://fabricmc.net/use/installer/)
+- Download [Fabric Mod Loader](https://fabricmc.net) then install [the lastest Fabric version](https://fabricmc.net/use/installer/)
 - Open your Minecraft launcher and check if the Fabric Loader profile is installed
 ### Find your installation folder (Mojang's Minecraft Launcher)
 It may differ if you're using a different client implementation.
