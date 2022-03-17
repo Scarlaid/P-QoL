@@ -149,4 +149,5 @@ ____________
 | [Inspecio](https://modrinth.com/mod/inspecio) | [Queerbric](https://github.com/Queerbric) | More tooltips for Minecraft | Again, not cheating, it's good for knowing what with what, especially checking shulkers if you don't know what will be hidden in there...
 | [Chat Heads](https://www.curseforge.com/minecraft/mc-mods/chat-heads) | [dzwdz](https://github.com/dzwdz/chat_heads) | Add heads next to playername for in-game chat | Cool right? No performance loss and you don't have to press Tab most of the time to check what skin they having
 | [Hatlist](https://www.curseforge.com/minecraft/mc-mods/hat-list) | [PotatoPresident](https://github.com/PotatoPresident) | Show hats overlay from skin in Tablist | Works well with [Chat heads](https://www.curseforge.com/minecraft/mc-mods/chat-heads) 
+| [WaveyCape](https://github.com/tr7zw/waveycapes) | [tr7zw](https://github.com/tr7zw) | Give your cape a wavey movement as it shouldn't be a flowing slab | Kinda bad imo, but no performance impact and you can have 20% identical to Lunar Cloaks
 _______
