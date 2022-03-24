@@ -38,6 +38,17 @@ You can add some finishing touches onto your Minecraft installation. Keep in min
 This modpack was inspired from this [list of Optifine alternatives](https://lambdaurora.dev/optifine_alternatives/), but it's doesn't mean it will stop there.
 Here you can find the mods with any little detail about each of them, keep in mind that I only make this modpack for **only 1.18.x** so if you came here for modpacks that support versions lower than 1.18, unfortunately this is not the right place.
 ##### If you want a minimal modpack identical to mine, my friend Enderman also attempts to make one and success: https://github.com/EndermanHackerVN/minimal-qol-modpack
+
+### Dependency mods
+| Name | Author | Description |
+| ------------- | ------------- | ------------ |
+| [Fabric API](https://www.curseforge.com/minecraft/mc-mods/fabric-api/) | [FabricMC](https://fabricmc.net/) | Necessary for almost every Fabric mods out there | 
+| [Fabric Language Kotlin](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin) | [FabricMC](https://fabricmc.net/) | Same as above | 
+| [Cloth Config](https://www.curseforge.com/minecraft/mc-mods/cloth-config) | [shedaniel](https://github.com/shedaniel) | Another alternative config API, mostly popular so I will put it here |
+| [Cloth API](https://www.curseforge.com/minecraft/mc-mods/cloth-api) | [shedaniel](https://github.com/shedaniel) | Same as above |
+| [Balm](https://www.curseforge.com/minecraft/mc-mods/balm-fabric/files) | [ModdingForBlockheads](https://github.com/ModdingForBlockheads) |
+| [malilib](https://www.curseforge.com/minecraft/mc-mods/malilib/files) | [maruohon](https://github.com/maruohon) | Required for MiniHUD mod |
+
 ### Performance
 | Name | Author | Description | Note |
 | ------------- | ------------- | ------------ | ------------| 
