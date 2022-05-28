@@ -1,0 +1,10 @@
+{
+  "makeJPEGs": false,
+  "screenshotToClipboard": false,
+  "screenshotCustomMessage": true,
+  "jpegCompression": 0.9,
+  "optimisedOutput": false,
+  "filter": "BOTH",
+  "showOptimisationStatus": true,
+  "pngOptimisationLevel": 3
+}

@@ -1,0 +1,58 @@
+{
+  "mg": {
+    "Enable": true,
+    "settings": {
+      "Link": false
+    },
+    "overrides": {
+      "crossbow": {
+        "Override": false,
+        "PX": 0.0,
+        "PY": 0.0,
+        "PZ": 0.0,
+        "RX": 0.0,
+        "RY": 0.0,
+        "RZ": 0.0
+      },
+      "FilledMap": false
+    },
+    "items": {
+      "Enable": true,
+      "main": {
+        "PX": 0.0,
+        "PY": 0.0,
+        "PZ": 0.0,
+        "RX": 0.0,
+        "RY": 0.0,
+        "RZ": 0.0
+      },
+      "off": {
+        "PX": 0.0,
+        "PY": 0.0,
+        "PZ": 0.0,
+        "RX": 0.0,
+        "RY": 0.0,
+        "RZ": 0.0
+      }
+    },
+    "hands": {
+      "Enable": true,
+      "left": {
+        "PX": 0.0,
+        "PY": 0.0,
+        "PZ": 0.0,
+        "RX": 0.0,
+        "RY": 0.0,
+        "RZ": 0.0
+      },
+      "right": {
+        "PX": 0.0,
+        "PY": 0.0,
+        "PZ": 0.0,
+        "RX": 0.0,
+        "RY": 0.0,
+        "RZ": 0.0
+      }
+    }
+  }
+}

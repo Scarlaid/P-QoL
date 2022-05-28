@@ -1,0 +1,6 @@
+{
+  "stretch": {
+    "desc:": "The amount by which the chunk render distance sphere is stretched in horizontal direction. default:2.0, min 0.5, max 10",
+    "stretch": 3.0
+  }
+}

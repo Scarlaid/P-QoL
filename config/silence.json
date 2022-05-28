@@ -1,0 +1,30 @@
+{
+  "silence.config.trackfocus": {
+    "key": "Track Focus",
+    "toolTip": "silence.config.tt.trackfocus",
+    "value": true,
+    "defaultValue": true
+  },
+  "silence.config.yPercent": {
+    "key": "Icon Y Percent",
+    "toolTip": "silence.config.tt.yPercent",
+    "value": 90,
+    "defaultValue": 90,
+    "minValue": 0,
+    "maxValue": 100
+  },
+  "silence.config.xPercent": {
+    "key": "Icon X Percent",
+    "toolTip": "silence.config.tt.xPercent",
+    "value": 88,
+    "defaultValue": 88,
+    "minValue": 0,
+    "maxValue": 100
+  },
+  "silence.config.wantIcon": {
+    "key": "Show Icon",
+    "toolTip": "silence.config.tt.wantIcon",
+    "value": false,
+    "defaultValue": false
+  }
+}

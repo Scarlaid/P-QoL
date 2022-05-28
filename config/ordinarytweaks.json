@@ -1,0 +1,12 @@
+{
+  "invisibleShield": true,
+  "invisibleTotem": true,
+  "betterHorseHUD": true,
+  "hideTutorialToasts": true,
+  "hideAdvancementToasts": true,
+  "hideRecipeUnlockToasts": true,
+  "deathCordsClipBoardButton": true,
+  "disablePortalGUIClosing": true,
+  "doNotPlantEdiblesIfHungry": true,
+  "skipResourcePackDownload": true
+}

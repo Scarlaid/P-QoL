@@ -1,0 +1,38 @@
+{
+  "clickthrough.config.sneaktodye": {
+    "key": "Sneak to dye signs",
+    "toolTip": "clickthrough.config.tt.sneaktodye",
+    "value": true,
+    "defaultValue": true
+  },
+  "clickthrough.config.ignore.3": {
+    "key": "Ignore signs if row 3 matches: ",
+    "toolTip": "clickthrough.config.tt.ignore.3",
+    "value": "b\\s*\\d+|b\\s*\\d+\\s*:\\s*\\d+\\s*s|\\d+\\s*s",
+    "defaultValue": "b\\s*\\d+|b\\s*\\d+\\s*:\\s*\\d+\\s*s|\\d+\\s*s"
+  },
+  "clickthrough.config.ignore.4": {
+    "key": "Ignore signs if row 4 matches: ",
+    "toolTip": "clickthrough.config.tt.ignore.4",
+    "value": "",
+    "defaultValue": ""
+  },
+  "clickthrough.config.onlycontainers": {
+    "key": "Only click through to containers",
+    "toolTip": "clickthrough.config.tt.onlycontainers",
+    "value": false,
+    "defaultValue": false
+  },
+  "clickthrough.config.ignore.1": {
+    "key": "Ignore signs if row 1 matches: ",
+    "toolTip": "clickthrough.config.tt.ignore.1",
+    "value": "\\[\\D+\\]",
+    "defaultValue": "\\[\\D+\\]"
+  },
+  "clickthrough.config.ignore.2": {
+    "key": "Ignore signs if row 2 matches: ",
+    "toolTip": "clickthrough.config.tt.ignore.2",
+    "value": "",
+    "defaultValue": ""
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "suppressing_blocks": [
+    "minecraft:hopper",
+    "minecraft:rail",
+    "minecraft:activator_rail",
+    "minecraft:powered_rail",
+    "minecraft:detector_rail"
+  ],
+  "always_suppress_smoke": true,
+  "fetch_translation_updates": true
+}

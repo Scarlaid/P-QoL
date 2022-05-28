@@ -1,0 +1,10 @@
+{
+  "ChatUtils": {
+    "copyToClipboardMessage": "\u00269Click to copy.",
+    "previewContent": true,
+    "copyColorsIfAny": true,
+    "antiSpam": true,
+    "tooltipEnabled": true,
+    "enabled": true
+  }
+}

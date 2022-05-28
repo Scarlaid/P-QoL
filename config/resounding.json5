@@ -1,0 +1,431 @@
+{
+	/* Whether to enable the Resounding sound engine.
+	   §7[•]§r Disabling this disables all Resounding effects.
+	*/
+	"enabled": true,
+	// Change these to taste.
+	"general": {
+		/* The global volume of simulated reverberations, in percent.
+		   §7[•]§r Range: 0 - 100
+		   §a[+]§r Performance Impact: Low
+		*/
+		"globalReverbGain": 75,
+		/* The strength of the reverb effect.
+		   §7[•]§r Range: >= 0.0
+		   §7[•]§r Higher values make the echo last longer.
+		   §7[•]§r Lower values make the echos shorter.
+		   §a[+]§r Performance Impact: Low
+		*/
+		"globalReverbStrength": 2.5,
+		/* The smoothness of the reverb.
+		   §7[•]§r Range: 0.0 - 1.0
+		   §7[•]§r Affects how uniform the reverb is.
+		   §7[•]§r Low values cause a distinct fluttering or bouncing echo.
+		   §7[•]§r High values make this effect less distinct by smoothing out the reverb.
+		   §a[+]§r Performance Impact: Low
+		*/
+		"globalReverbSmoothness": 0.618,
+		/* The brightness of reverberation.
+		   §7[•]§r Range: > 0 
+		   §7[•]§r Higher values result in more high frequencies in reverberation.
+		   §7[•]§r Lower values give a more muffled sound to the reverb.
+		   §7[•]§r 1.0 is neutral.
+		   §a[+]§r Performance Impact: Low
+		*/
+		"globalReverbBrightness": 0.75,
+		/* The brightness of absorption.
+		   §7[•]§r Range: > 0 
+		   §7[•]§r Higher values result in more high frequencies in faded or occluded audio.
+		   §7[•]§r Lower values give a more muffled sound to faded or occluded audio.
+		   §7[•]§r 1.0 is neutral.
+		   §a[+]§r Performance Impact: Low
+		*/
+		"globalAbsorptionBrightness": 0.75,
+		"globalBlockAbsorption": 1.0,
+		"globalBlockReflectance": 1.0
+	},
+	// These affect the quality and/or accuracy of the effects, at the cost of performance.
+	"quality": {
+		/* The resolution quality of the reverb effect.
+		   §7[•]§r Range: 4 - 32
+		   §a[+]§r Higher values create a fuller, more colorful, more immersive reverb effect.
+		   §c[ ! ]§r Performance Impact: High
+		   §e[-]§r Increases memory usage
+		*/
+		"reverbResolution": 16,
+		/* The number of rays to trace to determine reverberation for each sound source.
+		   §7[•]§r Range: 8 - 768
+		   §7[•]§r More rays provides more consistent tracing results, but takes more time to calculate.
+		   §c[ ! ]§r Performance Impact: High
+		*/
+		"envEvalRays": 128,
+		/* The quality preset used to calculate occlusion.
+		   §c[ ! ]§r NOTE: Advanced occlusion is not implemented in the current version. Locked to FAST
+		*/
+		"occlusionMode": "FAST",
+		/* The quality preset used to measure shared airspace.
+		   §7[•]§r FAST is less accurate, but it's faster to calculate.
+		   §e[-]§r Performance Impact: Moderate
+		*/
+		"sharedAirspaceMode": "FANCY",
+		/* Maximum distance of rendered sounds from the player.
+		   §7[•]§r Range: 1 - 32
+		   §7[•]§r Minecraft won't allow most sounds to play if they are more than a chunk from the player;
+		       Resounding makes that configurable by multiplying this parameter by the default distance.
+		   §e[-]§r Values too high can cause polyphony issues.
+		   §7[•]§r Increasing past the world simulation/render distance has no effect.
+		   §e[-]§r Performance Impact: Moderate
+		   §e[-]§r Currently does not seem to work for random block sounds
+		        e.g. flowing water, popping lava, whooshing portal
+		*/
+		"soundSimulationDistance": 8,
+		/* The number of extra ray bounces to trace to determine reverberation for each sound source.
+		   §7[•]§r Range: 2 - 32
+		   §7[•]§r More bounces provides more echo and sound ducting but takes more time to calculate.
+		   §7[•]§r Capped by max tracing distance.
+		   §c[ ! ]§r Performance Impact: High
+		*/
+		"envEvalRayBounces": 4,
+		/* The maximum length of each traced ray, per each bounce, in chunks.
+		   §7[•]§r Range: 1.0 - 16.0
+		   §7[•]§r For the best balance of performance and quality, increase this:
+		         - When you increase the sound simulation distance
+		         - When you decrease the number of ray reflections.
+		         - If you often find yourself in large enclosed spaces,
+		           e.g. large 1.18 caves, or large open buildings.
+		   §e[-]§r Performance Impact: Moderate
+		*/
+		"rayLength": 4.0,
+		/* Reverb refresh interval (in ticks per refresh or 1/(20Hz)).
+		   §7[•]§r Range: 1 - 40
+		   §7[•]§r Decreasing this value causes the reverb effect of long sounds to update more frequently.
+		   §e[-]§r Performance Impact: Moderate
+		*/
+		"sourceRefreshRate": 4,
+		"maxBlockOcclusion": 10.0,
+		"nineRayBlockOcclusion": true
+	},
+	// These add small features to enhance the immersion and/or physical accuracy of the mod.
+	"effects": {
+		/* Represents how aggressively air absorbs high frequencies over distance.
+		   §7[•]§r Range: 0.0 - 10.0
+		   §7[•]§r A value of 1.0 is physically correct for air with normal humidity and temperature.
+		   §7[•]§r Higher values mean air will absorb more high frequencies with distance.
+		   §7[•]§r A value of 0.0 disables this effect.
+		   §a[+]§r Performance Impact: Low
+		*/
+		"airAbsorption": 0.2,
+		/* How much humidity contributes to the air absorption.
+		   §7[•]§r Range: 0.0 - 4.0
+		   §7[•]§r A value of 1.0 is physically correct.
+		   §7[•]§r Higher values mean air will absorb more high frequencies with distance,
+		       depending on the local humidity.
+		   §7[•]§r A value of 0.0 disables this effect.
+		   §a[+]§r Performance Impact: Low
+		*/
+		"humidityAbsorption": 0.2,
+		/* How much rain drops contribute to the air absorption.
+		   §7[•]§r Range: 0.0 - 2.0
+		   §7[•]§r A value of 1.0 is approximately physically correct.
+		   §7[•]§r Higher values mean air will absorb more high frequencies with distance,
+		       depending on the local rainfall.
+		   §7[•]§r A value of 0.0 disables this effect.
+		   §a[+]§r Performance Impact: Low
+		*/
+		"rainAbsorption": 0.2,
+		/* How much sound is filtered when the player is underwater.
+		   §7[•]§r Range: 0.0 - 1.0
+		   §7[•]§r 0.0 means no filter. 1.0 means fully filtered.
+		   §a[+]§r Performance Impact: Low
+		*/
+		"underwaterFilter": 0.75,
+		"soundDirectionEvaluation": true,
+		"directRaysDirEvalMultiplier": 0.5
+	},
+	// These affect how sound interacts with different categories of blocks.
+	"materials": {
+		"materialProperties": {
+			"Aquatic Foliage": {
+				"example": null,
+				"reflectivity": 0.55,
+				"absorption": 0.65
+			},
+			"Grass, Foliage": {
+				"example": null,
+				"reflectivity": 0.24,
+				"absorption": 0.24
+			},
+			"Chain": {
+				"example": null,
+				"reflectivity": 0.8,
+				"absorption": 0.55
+			},
+			"Lush Cave Foliage": {
+				"example": null,
+				"reflectivity": 0.35,
+				"absorption": 0.25
+			},
+			"Sand": {
+				"example": null,
+				"reflectivity": 0.4,
+				"absorption": 0.6
+			},
+			"Weeping Vines": {
+				"example": null,
+				"reflectivity": 0.3,
+				"absorption": 0.3
+			},
+			"Snow": {
+				"example": null,
+				"reflectivity": 0.25,
+				"absorption": 0.42
+			},
+			"Tuff": {
+				"example": null,
+				"reflectivity": 0.75,
+				"absorption": 0.4
+			},
+			"Moss": {
+				"example": null,
+				"reflectivity": 0.2,
+				"absorption": 0.4
+			},
+			"Polished Deepslate": {
+				"example": null,
+				"reflectivity": 0.975,
+				"absorption": 0.6
+			},
+			"Nether Brick": {
+				"example": null,
+				"reflectivity": 0.88,
+				"absorption": 0.4
+			},
+			"Shroomlight": {
+				"example": null,
+				"reflectivity": 0.85,
+				"absorption": 0.3
+			},
+			"Netherrack": {
+				"example": null,
+				"reflectivity": 0.75,
+				"absorption": 0.45
+			},
+			"Metal": {
+				"example": null,
+				"reflectivity": 0.95,
+				"absorption": 0.4
+			},
+			"Soul Soil": {
+				"example": null,
+				"reflectivity": 0.1,
+				"absorption": 0.9
+			},
+			"Amethyst": {
+				"example": null,
+				"reflectivity": 0.85,
+				"absorption": 0.4
+			},
+			"Lanterns": {
+				"example": null,
+				"reflectivity": 0.75,
+				"absorption": 0.35
+			},
+			"Soul Sand": {
+				"example": null,
+				"reflectivity": 0.05,
+				"absorption": 0.85
+			},
+			"Powder Snow": {
+				"example": null,
+				"reflectivity": 0.18,
+				"absorption": 0.1
+			},
+			"Basalt": {
+				"example": null,
+				"reflectivity": 0.8,
+				"absorption": 0.375
+			},
+			"Candle Wax": {
+				"example": null,
+				"reflectivity": 0.35,
+				"absorption": 0.4
+			},
+			"Nether Mushroom": {
+				"example": null,
+				"reflectivity": 0.25,
+				"absorption": 0.75
+			},
+			"Netherite": {
+				"example": null,
+				"reflectivity": 0.995,
+				"absorption": 0.3
+			},
+			"Wood": {
+				"example": null,
+				"reflectivity": 0.675,
+				"absorption": 0.4
+			},
+			"Nether Fungus Stem": {
+				"example": null,
+				"reflectivity": 0.3,
+				"absorption": 0.65
+			},
+			"Gravel, Dirt": {
+				"example": null,
+				"reflectivity": 0.5,
+				"absorption": 0.65
+			},
+			"Stone, Blackstone": {
+				"example": null,
+				"reflectivity": 0.9,
+				"absorption": 0.5
+			},
+			"Azalea Leaves": {
+				"example": null,
+				"reflectivity": 0.3,
+				"absorption": 0.35
+			},
+			"Slime": {
+				"example": null,
+				"reflectivity": 0.88,
+				"absorption": 0.62
+			},
+			"Glass, Ice": {
+				"example": null,
+				"reflectivity": 0.9,
+				"absorption": 0.32
+			},
+			"Deepslate Tiles": {
+				"example": null,
+				"reflectivity": 0.975,
+				"absorption": 0.525
+			},
+			"Honey": {
+				"example": null,
+				"reflectivity": 0.12,
+				"absorption": 0.35
+			},
+			"Deepslate": {
+				"example": null,
+				"reflectivity": 0.94,
+				"absorption": 0.6
+			},
+			"Azalea Bush": {
+				"example": null,
+				"reflectivity": 0.3,
+				"absorption": 0.45
+			},
+			"Coral": {
+				"example": null,
+				"reflectivity": 0.35,
+				"absorption": 0.25
+			},
+			"Nylium": {
+				"example": null,
+				"reflectivity": 0.4,
+				"absorption": 0.5
+			},
+			"Sculk Sensor": {
+				"example": null,
+				"reflectivity": 0.15,
+				"absorption": 0.85
+			},
+			"Ancient Debris": {
+				"example": null,
+				"reflectivity": 0.45,
+				"absorption": 0.8
+			},
+			"Nether Foliage": {
+				"example": null,
+				"reflectivity": 0.15,
+				"absorption": 0.5
+			},
+			"Dry Foliage": {
+				"example": null,
+				"reflectivity": 0.25,
+				"absorption": 0.15
+			},
+			"Mushroom Stems": {
+				"example": null,
+				"reflectivity": 0.6,
+				"absorption": 0.65
+			},
+			"Nether Wart": {
+				"example": null,
+				"reflectivity": 0.2,
+				"absorption": 0.8
+			},
+			"Dripstone": {
+				"example": null,
+				"reflectivity": 0.85,
+				"absorption": 0.32
+			},
+			"Bone": {
+				"example": null,
+				"reflectivity": 0.9,
+				"absorption": 0.3
+			},
+			"Wool": {
+				"example": null,
+				"reflectivity": 0.025,
+				"absorption": 0.95
+			},
+			"Bamboo": {
+				"example": null,
+				"reflectivity": 0.6,
+				"absorption": 0.3
+			},
+			"DEFAULT": {
+				"example": null,
+				"reflectivity": 0.5,
+				"absorption": 0.5
+			}
+		},
+		"blockWhiteList": []
+	},
+	// Minor tweaks and toggles that didn't fit in another category.
+	"misc": {
+		/* Disable occlusion of jukeboxes and note blocks.
+		   §7[•]§r Useful if you have an audio signaling system in your base
+		       that you need to hear clearly through the walls.
+		   §a[+]§r Performance Impact: Low
+		*/
+		"recordsDisable": false,
+		"notOccludedNoRedirect": false,
+		"skipRainOcclusionTracing": true
+	},
+	/* These should ONLY be used to diagnose issues.
+	   They WILL cause major drops in performance and log spam if used for gameplay.
+	   DO NOT USE unless asked to by a developer.
+	*/
+	"debug": {
+		// General debug logging
+		"debugLogging": false,
+		"occlusionLogging": false,
+		/* Environment evaluation information logging.
+		   §c[ ! ]§r WARNING!! For use in void world only!
+		*/
+		"environmentLogging": false,
+		// Performance information logging.
+		"performanceLogging": false,
+		/* Visualize all rays and bounces with particles.
+		   §c[ ! ]§r WARNING!! For use in void world only!
+		*/
+		"raytraceParticles": false
+	},
+	"server": {
+		/* Maximum distance of rendered sounds from the player.
+		   [•] Range: 1 - 32
+		   [•] Minecraft won't allow most sounds to play if they are more than a chunk from the player;
+		       Resounding makes that configurable by multiplying this parameter by the default distance.
+		   [-] Values too high can cause polyphony issues.
+		   [•] Increasing past the world simulation/render distance has no effect.
+		   [-] Performance Impact: Moderate
+		   [-] Currently does not seem to work for random block sounds
+		       e.g. flowing water, popping lava, whooshing portal
+		*/
+		"soundSimulationDistance": 10
+	},
+	"preset": "LOAD_SUCCESS",
+	"version": "1.0.0-bc.8"
+}

@@ -1,0 +1,6 @@
+{
+  "CONFIG_VERSION_DONT_TOUCH_THIS": 1,
+  "_comment": "Before changing anything, see https://github.com/Patbox/EntityViewDistance#configuration",
+  "mode": "client",
+  "entityViewDistance": {}
+}

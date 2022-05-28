@@ -1,0 +1,18 @@
+{
+	"onlyLocal": false,
+	"hideArrows": true,
+	"hideStings": true,
+	"hideArmor": false,
+	"hideHeldItem": false,
+	"hideHead": false,
+	"hideElytra": false,
+	"hideRiptide": false,
+	"hideShoulderParrot": false,
+	"render": true,
+	"resize": false,
+	"resX": 1,
+	"resY": 1,
+	"resZ": 1,
+	"rightArm": true,
+	"leftArm": true
+}
