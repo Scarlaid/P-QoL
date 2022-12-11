@@ -37,8 +37,8 @@ You can add some finishing touches onto your Minecraft installation. Keep in min
 # Included mods
 This modpack was inspired from this [list of Optifine alternatives](https://lambdaurora.dev/optifine_alternatives/), but it's doesn't mean it will stop there.
 Here you can find the mods with any little detail about each of them, keep in mind that I only make this modpack for **only 1.18.x** so if you came here for modpacks that support versions lower than 1.18, unfortunately this is not the right place.
-##### If you want a minimal modpack identical to mine, my friend Enderman also attempts to make one and success: https://github.com/EndermanHackerVN/minimal-qol-modpack
-
+##### But why are there so many mods? 
+##### > Surprised enough, Fabric is much more of a light mod loader than Forge so don't worry, you can still have fun with QoL while still maintaining the Performance, and this pack proves it! 
 ### Dependency mods
 | Name | Author | Description |
 | ------------- | ------------- | ------------ |
